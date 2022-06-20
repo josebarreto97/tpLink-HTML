@@ -42,24 +42,41 @@
     <!--Contenido-->
     <main>
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="https://i.ibb.co/XCNWQHD/principal.jpg">
-                        <div class="card-body">
-                            <h5 class="card-title">Zapatos color cafe</h5>
-                            <p class="card-text">$ 599.00</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="#" class="btn btn-primary">Detalles</a>
-                                </div>
-                                <a href="#" class="btn btn-success">Agregar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row">
+                <h2>Agregar Producto</h2>
             </div>
-        </div>
+            
+            <div class="mb-3">
+                <strong>Nombre</strong>
+                <input type="nombre" class="form-control" id="nom">
+
+                <strong>Precio</strong>
+                <input type="precio" class="form-control" id="precio">
+
+                <strong>Descripcion</strong>
+                <textarea class="form-control" id="descripcion" rows="3"></textarea>
+
+                <strong>Moneda</strong>
+                <select class="form-control" id="moneda">
+                    <option>Peso Argentino</option>
+                    <option>Dolar</option>
+                </select>
+
+                <strong>Proveedores asociados</strong>
+                <select class="form-control" id="eleccionProv">
+                    <option>Proveedor 1</option>
+                    <option>Proveedor 2</option>
+                </select>
+
+                <strong>Foto del Producto</strong>
+                <br>
+                <input type="file">
+                <br>
+                <br>
+                
+                <button type="submit" class="btn btn-success">Cargar producto</button>
+
+            </div>
     </main>
 
     <!--Footer-->
