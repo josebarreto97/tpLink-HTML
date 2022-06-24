@@ -42,41 +42,38 @@
     <!--Contenido-->
     <main>
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="https://m.media-amazon.com/images/I/81pEDX5vZwL._AC_SX425_.jpg">
-                        <div class="card-body">
-                            <h5 class="card-title">Monopoly Simpsons</h5>
-                            <p class="card-text">$ 3500</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="detalles1.html" class="btn btn-primary">Detalles</a>
-                                </div>
-                                <a href="#" class="btn btn-success">Agregar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                    <tr>
+                        <td><img src="https://m.media-amazon.com/images/I/81pEDX5vZwL._AC_SX425_.jpg"></td>
+                        <td><h1>$3500</h1></td>
+                        <td><h1>1</h1></td>
+                        <td><a href="" id="eliminar" class="btn btn-warning btn-sm"><h1>Eliminar</h1></a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://m.media-amazon.com/images/I/91tzxYYp-eL._AC_SX355_.jpg"></td>
+                        <td><h1>$3000</h1></td>
+                        <td><h1>1</h1></td>
+                        <td><a href="" id="eliminar" class="btn btn-warning btn-sm"><h1>Eliminar</h1></a></td>
+                    </tr>
+                </table>
 
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="https://m.media-amazon.com/images/I/91RSg9MCGtL._AC_SY450_.jpg">
-                        <div class="card-body">
-                            <h5 class="card-title">Monopoly Original</h5>
-                            <p class="card-text">$ 3000</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="detalles2.html" class="btn btn-primary">Detalles</a>
-                                </div>
-                                <a href="#" class="btn btn-success">Agregar</a>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-md-5 offset-md-7 d-grid gap-2">
+                        <button class="btn btn-primary btn-lg">Realizar Pago</button>
                     </div>
                 </div>
             </div>
         </div>
-            
     </main>
 
     <!--Footer-->
